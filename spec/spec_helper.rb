@@ -8,9 +8,6 @@ end
 require "publishing_platform_message_queue_consumer"
 require "publishing_platform_message_queue_consumer/test_helpers"
 
-# require "bunny-mock"
-# BunnyMock.use_bunny_queue_pop_api = true
-
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
   config.example_status_persistence_file_path = ".rspec_status"

@@ -18,7 +18,6 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "bunny", "~> 2.24"
 
-  spec.add_development_dependency "bunny-mock"
   spec.add_development_dependency "publishing_platform_rubocop"
   spec.add_development_dependency "simplecov"
 end
