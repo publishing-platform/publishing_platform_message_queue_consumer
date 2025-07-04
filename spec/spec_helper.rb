@@ -1,6 +1,15 @@
 # frozen_string_literal: true
 
+require "simplecov"
+SimpleCov.start do
+  add_filter "/spec/"
+end
+
 require "publishing_platform_message_queue_consumer"
+require "publishing_platform_message_queue_consumer/test_helpers"
+
+# require "bunny-mock"
+# BunnyMock.use_bunny_queue_pop_api = true
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

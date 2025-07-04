@@ -1,0 +1,2 @@
+require "publishing_platform_message_queue_consumer/test_helpers/shared_examples"
+require "publishing_platform_message_queue_consumer/test_helpers/mock_message"

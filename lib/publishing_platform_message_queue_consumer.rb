@@ -1,8 +1,9 @@
-# frozen_string_literal: true
+require "bunny"
+require "json"
 
-require_relative "publishing_platform_message_queue_consumer/version"
-
-module PublishingPlatformMessageQueueConsumer
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require "publishing_platform_message_queue_consumer/version"
+require "publishing_platform_message_queue_consumer/heartbeat_processor"
+require "publishing_platform_message_queue_consumer/json_processor"
+require "publishing_platform_message_queue_consumer/message"
+require "publishing_platform_message_queue_consumer/message_consumer"
+require "publishing_platform_message_queue_consumer/consumer"
