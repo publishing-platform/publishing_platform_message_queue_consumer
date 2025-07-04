@@ -130,5 +130,4 @@ bundle exec rake spec
 
 ## Versioning policy
 
-We follow [Semantic versioning](http://semver.org/spec/v2.0.0.html). Check the
-[CHANGELOG](CHANGELOG.md) for changes.
+We follow [Semantic versioning](http://semver.org/spec/v2.0.0.html).
