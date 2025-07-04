@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.1"
 
-  spec.files = Dir.glob("lib/**/*") + %w[LICENCE README.md]
+  spec.files = Dir.glob("lib/**/*") + %w[LICENSE README.md]
   spec.require_paths = %w[lib]
 
   spec.add_dependency "bunny", "~> 2.24"
