@@ -48,6 +48,7 @@ class MyProcessor
     # do something cool
   end
 end
+```
 
 You can start the worker by running the `message_queue:consumer` Rake task.
 
