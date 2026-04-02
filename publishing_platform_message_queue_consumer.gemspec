@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.description = "Avoid writing boilerplate code in order to consume messages from an AMQP message queue. Plug in queue configuration, and how to process each message."
 
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 3.1"
+  spec.required_ruby_version = ">= 3.2"
 
   spec.files = Dir.glob("lib/**/*") + %w[LICENSE README.md]
   spec.require_paths = %w[lib]

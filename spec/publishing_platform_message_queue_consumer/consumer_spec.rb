@@ -51,7 +51,7 @@ RSpec.describe PublishingPlatformMessageQueueConsumer::Consumer do
         let(:error) { SignalException.new("SIGWINCH") }
 
         before do
-          stub_const("PublishingPlatformError", double(notify: nil)) # rubocop:disable RSpec/VerifiedDoubles
+          stub_const("PublishingPlatformError", double(notify: nil))
         end
 
         it "gracefully exits after notifying PublishingPlatformError" do
