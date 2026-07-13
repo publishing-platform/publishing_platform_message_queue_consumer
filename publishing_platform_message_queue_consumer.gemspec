@@ -19,5 +19,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "bunny", ">= 2.24", "< 4.0"
 
   spec.add_development_dependency "publishing_platform_rubocop", "~> 0.2"
-  spec.add_development_dependency "simplecov", "~> 0.22"
+  spec.add_development_dependency "simplecov", "~> 1.0"
 end
